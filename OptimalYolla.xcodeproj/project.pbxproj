@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C57C15968548D3C70054F91 /* Pods_OptimalYolla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AFACE44426D27459041764 /* Pods_OptimalYolla.framework */; };
+		B6B5CEAD25068FAD00C3D1A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5CEAC25068FAD00C3D1A2 /* AppDelegate.swift */; };
+		B6B5CEB125068FAD00C3D1A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5CEB025068FAD00C3D1A2 /* ViewController.swift */; };
+		B6B5CEB425068FAD00C3D1A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B5CEB225068FAD00C3D1A2 /* Main.storyboard */; };
+		B6B5CEB625068FAE00C3D1A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B5CEB525068FAE00C3D1A2 /* Assets.xcassets */; };
+		B6B5CEB925068FAE00C3D1A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B5CEB725068FAE00C3D1A2 /* LaunchScreen.storyboard */; };
+		B6B5CEC425068FAF00C3D1A2 /* OptimalYollaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5CEC325068FAF00C3D1A2 /* OptimalYollaTests.swift */; };
+		B6B5CECF25068FAF00C3D1A2 /* OptimalYollaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5CECE25068FAF00C3D1A2 /* OptimalYollaUITests.swift */; };
+		B6B5CEDE2506911600C3D1A2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5CEDD2506911600C3D1A2 /* HomeController.swift */; };
+		B6B5CEE1250694E600C3D1A2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B5CEE0250694E600C3D1A2 /* WebKit.framework */; };
+		B6E05AF22510927900CB7723 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E05AF12510927900CB7723 /* MenuController.swift */; };
+		B6E05AF4251092F500CB7723 /* MenuStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E05AF3251092F500CB7723 /* MenuStruct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6B5CEC025068FAF00C3D1A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B5CEA125068FAD00C3D1A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B5CEA825068FAD00C3D1A2;
+			remoteInfo = OptimalYolla;
+		};
+		B6B5CECB25068FAF00C3D1A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B5CEA125068FAD00C3D1A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B5CEA825068FAD00C3D1A2;
+			remoteInfo = OptimalYolla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FFBD2592CB5031034EDD656 /* Pods-OptimalYolla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimalYolla.debug.xcconfig"; path = "Target Support Files/Pods-OptimalYolla/Pods-OptimalYolla.debug.xcconfig"; sourceTree = "<group>"; };
+		B6B5CEA925068FAD00C3D1A2 /* OptimalYolla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimalYolla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B5CEAC25068FAD00C3D1A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6B5CEB025068FAD00C3D1A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6B5CEB325068FAD00C3D1A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6B5CEB525068FAE00C3D1A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B5CEB825068FAE00C3D1A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6B5CEBA25068FAE00C3D1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B5CEBF25068FAF00C3D1A2 /* OptimalYollaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimalYollaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B5CEC325068FAF00C3D1A2 /* OptimalYollaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimalYollaTests.swift; sourceTree = "<group>"; };
+		B6B5CEC525068FAF00C3D1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B5CECA25068FAF00C3D1A2 /* OptimalYollaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimalYollaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B5CECE25068FAF00C3D1A2 /* OptimalYollaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimalYollaUITests.swift; sourceTree = "<group>"; };
+		B6B5CED025068FAF00C3D1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B5CEDD2506911600C3D1A2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B6B5CEE0250694E600C3D1A2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B6E05AF12510927900CB7723 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		B6E05AF3251092F500CB7723 /* MenuStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuStruct.swift; sourceTree = "<group>"; };
+		CF0632838B72202C3932A751 /* Pods-OptimalYolla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimalYolla.release.xcconfig"; path = "Target Support Files/Pods-OptimalYolla/Pods-OptimalYolla.release.xcconfig"; sourceTree = "<group>"; };
+		F6AFACE44426D27459041764 /* Pods_OptimalYolla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimalYolla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6B5CEA625068FAD00C3D1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B5CEE1250694E600C3D1A2 /* WebKit.framework in Frameworks */,
+				9C57C15968548D3C70054F91 /* Pods_OptimalYolla.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B5CEBC25068FAF00C3D1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B5CEC725068FAF00C3D1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB85721C89080BA65473DA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FFBD2592CB5031034EDD656 /* Pods-OptimalYolla.debug.xcconfig */,
+				CF0632838B72202C3932A751 /* Pods-OptimalYolla.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6B5CEA025068FAD00C3D1A2 = {
+			isa = PBXGroup;
+			children = (
+				B6B5CEAB25068FAD00C3D1A2 /* OptimalYolla */,
+				B6B5CEC225068FAF00C3D1A2 /* OptimalYollaTests */,
+				B6B5CECD25068FAF00C3D1A2 /* OptimalYollaUITests */,
+				B6B5CEAA25068FAD00C3D1A2 /* Products */,
+				B6B5CEDF250694E600C3D1A2 /* Frameworks */,
+				AFB85721C89080BA65473DA6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B5CEAA25068FAD00C3D1A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5CEA925068FAD00C3D1A2 /* OptimalYolla.app */,
+				B6B5CEBF25068FAF00C3D1A2 /* OptimalYollaTests.xctest */,
+				B6B5CECA25068FAF00C3D1A2 /* OptimalYollaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B5CEAB25068FAD00C3D1A2 /* OptimalYolla */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5CEDC250690E700C3D1A2 /* Controllers */,
+				B6B5CEAC25068FAD00C3D1A2 /* AppDelegate.swift */,
+				B6B5CEB025068FAD00C3D1A2 /* ViewController.swift */,
+				B6B5CEB225068FAD00C3D1A2 /* Main.storyboard */,
+				B6B5CEB525068FAE00C3D1A2 /* Assets.xcassets */,
+				B6B5CEB725068FAE00C3D1A2 /* LaunchScreen.storyboard */,
+				B6B5CEBA25068FAE00C3D1A2 /* Info.plist */,
+			);
+			path = OptimalYolla;
+			sourceTree = "<group>";
+		};
+		B6B5CEC225068FAF00C3D1A2 /* OptimalYollaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5CEC325068FAF00C3D1A2 /* OptimalYollaTests.swift */,
+				B6B5CEC525068FAF00C3D1A2 /* Info.plist */,
+			);
+			path = OptimalYollaTests;
+			sourceTree = "<group>";
+		};
+		B6B5CECD25068FAF00C3D1A2 /* OptimalYollaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5CECE25068FAF00C3D1A2 /* OptimalYollaUITests.swift */,
+				B6B5CED025068FAF00C3D1A2 /* Info.plist */,
+			);
+			path = OptimalYollaUITests;
+			sourceTree = "<group>";
+		};
+		B6B5CEDC250690E700C3D1A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5CEDD2506911600C3D1A2 /* HomeController.swift */,
+				B6E05AF12510927900CB7723 /* MenuController.swift */,
+				B6E05AF3251092F500CB7723 /* MenuStruct.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B6B5CEDF250694E600C3D1A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5CEE0250694E600C3D1A2 /* WebKit.framework */,
+				F6AFACE44426D27459041764 /* Pods_OptimalYolla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6B5CEA825068FAD00C3D1A2 /* OptimalYolla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B5CED325068FAF00C3D1A2 /* Build configuration list for PBXNativeTarget "OptimalYolla" */;
+			buildPhases = (
+				4FB6935CEB27E0DA1232D448 /* [CP] Check Pods Manifest.lock */,
+				B6B5CEA525068FAD00C3D1A2 /* Sources */,
+				B6B5CEA625068FAD00C3D1A2 /* Frameworks */,
+				B6B5CEA725068FAD00C3D1A2 /* Resources */,
+				F65C5DC28D7AD1CAD6A167BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptimalYolla;
+			productName = OptimalYolla;
+			productReference = B6B5CEA925068FAD00C3D1A2 /* OptimalYolla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6B5CEBE25068FAF00C3D1A2 /* OptimalYollaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B5CED625068FAF00C3D1A2 /* Build configuration list for PBXNativeTarget "OptimalYollaTests" */;
+			buildPhases = (
+				B6B5CEBB25068FAF00C3D1A2 /* Sources */,
+				B6B5CEBC25068FAF00C3D1A2 /* Frameworks */,
+				B6B5CEBD25068FAF00C3D1A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B5CEC125068FAF00C3D1A2 /* PBXTargetDependency */,
+			);
+			name = OptimalYollaTests;
+			productName = OptimalYollaTests;
+			productReference = B6B5CEBF25068FAF00C3D1A2 /* OptimalYollaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6B5CEC925068FAF00C3D1A2 /* OptimalYollaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B5CED925068FAF00C3D1A2 /* Build configuration list for PBXNativeTarget "OptimalYollaUITests" */;
+			buildPhases = (
+				B6B5CEC625068FAF00C3D1A2 /* Sources */,
+				B6B5CEC725068FAF00C3D1A2 /* Frameworks */,
+				B6B5CEC825068FAF00C3D1A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B5CECC25068FAF00C3D1A2 /* PBXTargetDependency */,
+			);
+			name = OptimalYollaUITests;
+			productName = OptimalYollaUITests;
+			productReference = B6B5CECA25068FAF00C3D1A2 /* OptimalYollaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B5CEA125068FAD00C3D1A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Rufat;
+				TargetAttributes = {
+					B6B5CEA825068FAD00C3D1A2 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					B6B5CEBE25068FAF00C3D1A2 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = B6B5CEA825068FAD00C3D1A2;
+					};
+					B6B5CEC925068FAF00C3D1A2 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = B6B5CEA825068FAD00C3D1A2;
+					};
+				};
+			};
+			buildConfigurationList = B6B5CEA425068FAD00C3D1A2 /* Build configuration list for PBXProject "OptimalYolla" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6B5CEA025068FAD00C3D1A2;
+			productRefGroup = B6B5CEAA25068FAD00C3D1A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B5CEA825068FAD00C3D1A2 /* OptimalYolla */,
+				B6B5CEBE25068FAF00C3D1A2 /* OptimalYollaTests */,
+				B6B5CEC925068FAF00C3D1A2 /* OptimalYollaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6B5CEA725068FAD00C3D1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B5CEB925068FAE00C3D1A2 /* LaunchScreen.storyboard in Resources */,
+				B6B5CEB625068FAE00C3D1A2 /* Assets.xcassets in Resources */,
+				B6B5CEB425068FAD00C3D1A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B5CEBD25068FAF00C3D1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B5CEC825068FAF00C3D1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FB6935CEB27E0DA1232D448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OptimalYolla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F65C5DC28D7AD1CAD6A167BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OptimalYolla/Pods-OptimalYolla-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OptimalYolla/Pods-OptimalYolla-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OptimalYolla/Pods-OptimalYolla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6B5CEA525068FAD00C3D1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E05AF22510927900CB7723 /* MenuController.swift in Sources */,
+				B6B5CEDE2506911600C3D1A2 /* HomeController.swift in Sources */,
+				B6B5CEB125068FAD00C3D1A2 /* ViewController.swift in Sources */,
+				B6B5CEAD25068FAD00C3D1A2 /* AppDelegate.swift in Sources */,
+				B6E05AF4251092F500CB7723 /* MenuStruct.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B5CEBB25068FAF00C3D1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B5CEC425068FAF00C3D1A2 /* OptimalYollaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B5CEC625068FAF00C3D1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B5CECF25068FAF00C3D1A2 /* OptimalYollaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6B5CEC125068FAF00C3D1A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B5CEA825068FAD00C3D1A2 /* OptimalYolla */;
+			targetProxy = B6B5CEC025068FAF00C3D1A2 /* PBXContainerItemProxy */;
+		};
+		B6B5CECC25068FAF00C3D1A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B5CEA825068FAD00C3D1A2 /* OptimalYolla */;
+			targetProxy = B6B5CECB25068FAF00C3D1A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6B5CEB225068FAD00C3D1A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B5CEB325068FAD00C3D1A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6B5CEB725068FAE00C3D1A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B5CEB825068FAE00C3D1A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6B5CED125068FAF00C3D1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6B5CED225068FAF00C3D1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6B5CED425068FAF00C3D1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFBD2592CB5031034EDD656 /* Pods-OptimalYolla.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptimalYolla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OptimalYolla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B6B5CED525068FAF00C3D1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0632838B72202C3932A751 /* Pods-OptimalYolla.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptimalYolla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OptimalYolla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B6B5CED725068FAF00C3D1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptimalYollaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OptimalYollaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimalYolla.app/OptimalYolla";
+			};
+			name = Debug;
+		};
+		B6B5CED825068FAF00C3D1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptimalYollaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OptimalYollaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimalYolla.app/OptimalYolla";
+			};
+			name = Release;
+		};
+		B6B5CEDA25068FAF00C3D1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptimalYollaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OptimalYollaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OptimalYolla;
+			};
+			name = Debug;
+		};
+		B6B5CEDB25068FAF00C3D1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OptimalYollaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OptimalYollaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OptimalYolla;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6B5CEA425068FAD00C3D1A2 /* Build configuration list for PBXProject "OptimalYolla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B5CED125068FAF00C3D1A2 /* Debug */,
+				B6B5CED225068FAF00C3D1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B5CED325068FAF00C3D1A2 /* Build configuration list for PBXNativeTarget "OptimalYolla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B5CED425068FAF00C3D1A2 /* Debug */,
+				B6B5CED525068FAF00C3D1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B5CED625068FAF00C3D1A2 /* Build configuration list for PBXNativeTarget "OptimalYollaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B5CED725068FAF00C3D1A2 /* Debug */,
+				B6B5CED825068FAF00C3D1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B5CED925068FAF00C3D1A2 /* Build configuration list for PBXNativeTarget "OptimalYollaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B5CEDA25068FAF00C3D1A2 /* Debug */,
+				B6B5CEDB25068FAF00C3D1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6B5CEA125068FAD00C3D1A2 /* Project object */;
+}

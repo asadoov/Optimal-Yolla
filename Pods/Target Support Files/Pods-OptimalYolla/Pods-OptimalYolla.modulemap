@@ -1,0 +1,6 @@
+framework module Pods_OptimalYolla {
+  umbrella header "Pods-OptimalYolla-umbrella.h"
+
+  export *
+  module * { export * }
+}
