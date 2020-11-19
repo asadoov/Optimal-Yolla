@@ -38,8 +38,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B66132C225194F83005493B6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3FFBD2592CB5031034EDD656 /* Pods-OptimalYolla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimalYolla.debug.xcconfig"; path = "Target Support Files/Pods-OptimalYolla/Pods-OptimalYolla.debug.xcconfig"; sourceTree = "<group>"; };
+		B66132AF2518F59B005493B6 /* OptimalYolla.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OptimalYolla.entitlements; sourceTree = "<group>"; };
 		B6B5CEA925068FAD00C3D1A2 /* OptimalYolla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimalYolla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B5CEAC25068FAD00C3D1A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6B5CEB025068FAD00C3D1A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +136,7 @@
 		B6B5CEAB25068FAD00C3D1A2 /* OptimalYolla */ = {
 			isa = PBXGroup;
 			children = (
+				B66132AF2518F59B005493B6 /* OptimalYolla.entitlements */,
 				B6B5CEDC250690E700C3D1A2 /* Controllers */,
 				B6B5CEAC25068FAD00C3D1A2 /* AppDelegate.swift */,
 				B6B5CEB025068FAD00C3D1A2 /* ViewController.swift */,
@@ -182,6 +197,7 @@
 				B6B5CEA625068FAD00C3D1A2 /* Frameworks */,
 				B6B5CEA725068FAD00C3D1A2 /* Resources */,
 				F65C5DC28D7AD1CAD6A167BB /* [CP] Embed Pods Frameworks */,
+				B66132C225194F83005493B6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -454,7 +470,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				"INFOPLIST_FILE[sdk=*]" = "/Users/rufat/Desktop/Optimal-Yolla/OptimalYolla/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -508,7 +525,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_FILE = "/Users/rufat/Desktop/Optimal-Yolla/OptimalYolla/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -523,8 +541,10 @@
 			baseConfigurationReference = 3FFBD2592CB5031034EDD656 /* Pods-OptimalYolla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OptimalYolla/OptimalYolla.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LC9W6SVFY7;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = DUPNLYMQMA;
 				INFOPLIST_FILE = OptimalYolla/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -532,7 +552,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OptimalYolla;
+				PRODUCT_BUNDLE_IDENTIFIER = az.optimalyolla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -544,8 +564,10 @@
 			baseConfigurationReference = CF0632838B72202C3932A751 /* Pods-OptimalYolla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OptimalYolla/OptimalYolla.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LC9W6SVFY7;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = DUPNLYMQMA;
 				INFOPLIST_FILE = OptimalYolla/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -553,7 +575,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OptimalYolla;
+				PRODUCT_BUNDLE_IDENTIFIER = az.optimalyolla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
